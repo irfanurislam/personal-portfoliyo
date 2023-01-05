@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav item */
+
+.text-pri{
+    color: #FD6E0A;
+
+}
+
+.nav-tittle{
+    font-weight:800;
+    font-size: 45px;
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.btn-hire {
+    background-color: #FD6E0A;
+    color: #ffff;
+    border: none;
+    padding: 6px 8px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.header{
+    background: #fff8f3;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right ,left;
+    /* background-size:  auto, auto ; */
+    background-size:60% auto, auto 500px;
+    
+}
+
+/* banner item  */
+.banner {
+    display: flex;
+    margin: 0 80px;
+    align-items: center;
+
+
+
+}
+
+.banner-sub-tittle {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.banner-name {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom:10px ;
+}
+.banner-discription{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.banner img {
+    margin-left: 70px;
+    width: 50%;
+}
+.btn-contact{
+    background-color: #ffff;
+    border: 2px solid #FD6E0A;
+    padding: 6px 8px;
+    margin-left: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+/* aboout sectiion */
+main{
+    /* max-width: 1140px; */
+    margin: 0 auto;
+}
+.about{
+    /* margin-top: 100px; */
+    border-radius: 10px;
+    background-color: #fff8f3;
+    padding: 100px 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin: 100px 40px 0px 40px;
+    text-align: center;
+}
+.sec-tittle{
+
+margin-bottom: 30px;
+font-weight: 600px;
+font-size: 30px;
+text-align: center;
+
+}
+.sec-discription{
+    font-size: 18px;
+    color: #757575;
+   
+    margin-bottom: 30px;
+    
+}
+
+/* info sectioin */
+.about-info-contain{
+    display: flex;
+    justify-content: space-around;
+}
+.info-tittle{
+    font-size: 14px;
+    color: #757575;
+}
+.info-descripton{
+    font-size: 14px;
+    font-weight: 700;
+    
+
+}
+/* my skills */
+.what-i-do{
+    margin: 100px 40px 0px 40px;
+}
+/* .what-i-do>.sec-tittle{
+    text-align: center;
+} */
+.skills-container{
+    display: flex;
+    gap: 20px;
+    padding: 0px 40px 0px 40px;
+
+}
+.skill{
+    background: #ffff;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+ margin-top: 20px;
+ padding: 20px;
+}
+.skill-tittle{
+    font-size: 16px;
+    font-weight: 700;
+    margin:15px 0px 15px 0px;
+   
+}
+.skills-discription{
+    color: #757575;
+    font-size: 14px;
+}
+.skill img{
+    width: 15%;
+}
+
+/* resume section */
+
+.resume-container{
+    display: flex;
+    gap: 20px;
+    padding: 0px 40px 0px 100px;
+   
+}
+.resume{
+    margin-top: 30px;
+    padding: 15px;
+}
+.resume-all{
+    margin-top: 70px;
+}
+.resume-tittle{
+    /* color: #474747; */
+    font-weight: 700;
+}
+.resume-tittle-2{
+    margin-top: 30px;
+    font-weight: 700;
+    /* color: #474747; */
+}
+.resume-tittle-3{
+    color: #757575;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.resume-description{
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #757575;
+
+}
+.resume-btn{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 15%;
+}
+/* conatct */
+
+ .contact{
+    display: flex;
+    gap: 50px;
+    background-color: #fff8f3;
+    padding: 100px 130px;
+}
+  
+.contact-discription{
+    font-size: 14px;
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-tittle{
+    font-size: 18px;
+    font-weight: 700px;
+    color: #181818;
+} 
+.contact input[type="name"],input[type="email"], textarea{
+    margin-bottom: 20px;
+    border: 2px solid #FD6E0A;
+    background: #ffffff;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius:4px;
+}
+.contact input{
+      height: 50px;
+      margin-top: 20px;
+}
+.contact a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
